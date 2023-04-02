@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Montserrat:wght@300&display=swap');
 
-
-
-
 /* Dispositivos móveis com tela de até 767px de largura AKA celular*/
 @media (max-width: 767px) {
   * {
@@ -44,6 +41,8 @@
     font-size: 15px;
     width: 100%;
     text-align: center;
+    padding-left: 2%;
+    padding-right: 2%;
   }
 
   .title-B {
@@ -170,9 +169,10 @@
     scroll-padding: 300px;
     box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
   }
+
   .containeeer .carde {
     display: flex;
-    flex: 0 0 100%;
+    flex: 0 0 50%;
     flex-direction: column;
     align-items: center;
     padding: 100px;
@@ -181,6 +181,7 @@
     scroll-snap-align: start;
     box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
   }
+
   .carde .imagem {
     height: 150px;
     width: 150px;
@@ -188,6 +189,7 @@
     background: #616d626b;
     border-radius: 50%;
   }
+
   .imagem img {
     height: 100%;
     width: 100%;
@@ -195,6 +197,7 @@
     border-radius: 50%;
     border: 5px solid #fff;
   }
+
   .carde h2 {
     margin-top: 25px;
     color: #333;
@@ -202,33 +205,35 @@
     font-weight: 600;
     text-align: center;
   }
+
   .carde p {
     display: none;
   }
 
-  .carde-title{
+  .carde-title {
     align-items: center;
     font-weight: bolder;
     padding-bottom: 3px;
   }
 
-  .carde-name{
+  .carde-name {
     align-items: center;
-    color:#4ed641;
+    color: #4ed641;
     padding-bottom: 15px;
   }
-  .carde-resume{
+
+  .carde-resume {
     align-items: center;
     padding-bottom: 8px;
   }
-  .icons{
+
+  .icons {
     font-size: 30px;
   }
 
 
 
 }
-
 
 /* Tablets com tela de 768px a 1023px de largura */
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -268,12 +273,15 @@
     margin-bottom: 50px;
     font-size: 15px;
     width: 100%;
+    padding-left: 2%;
+    padding-right: 2%;
   }
 
   .T1 {
     text-align: justify;
-    padding-left: 2vh;
-    padding-right: 2vh;
+    padding-left: 4vh;
+    padding-right: 4vh;
+
   }
 
   .middleimg img {
@@ -365,17 +373,21 @@
   ::-webkit-scrollbar {
     height: 8px;
   }
+
   ::-webkit-scrollbar-track {
     background: #f1f1f1;
     border-radius: 25px;
   }
+
   ::-webkit-scrollbar-thumb {
     background: #6e93f7;
     border-radius: 25px;
   }
+
   ::-webkit-scrollbar-thumb:hover {
     background: #4070f4;
   }
+
   .containeeer {
     display: flex;
     width: 100%;
@@ -387,9 +399,10 @@
     scroll-padding: 30px;
     box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
   }
+
   .containeeer .carde {
     display: flex;
-    flex: 0 0 100%;
+    flex: 0 0 60%;
     flex-direction: column;
     align-items: center;
     padding: 30px;
@@ -399,13 +412,15 @@
     scroll-snap-align: start;
     box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
   }
+
   .carde .imagem {
     height: 200px;
     width: 200px;
     background: #ffffff6b;
     border-radius: 50%;
-    
+
   }
+
   .imagem img {
     height: 200px;
     width: 200px;
@@ -421,53 +436,52 @@
     font-weight: 600;
     text-align: center;
   }
+
   .carde p {
     color: rgb(95, 95, 95);
     text-align: center;
   }
-  
-  .carde-title{
+
+  .carde-title {
     align-items: center;
     font-weight: bolder;
     padding-bottom: 3px;
   }
-  
-  .carde-name{
+
+  .carde-name {
     align-items: center;
-    color:#4ed641;
+    color: #4ed641;
     padding-bottom: 15px;
   }
-  .carde-resume{
+
+  .carde-resume {
     align-items: center;
     padding-bottom: 8px;
   }
-  .icons{
+
+  .icons {
     font-size: 30px;
   }
-    .title-B {
-      font-size: 15px;
-      padding-top: 20px;
-      padding-bottom: 0px;
-      margin-bottom: 0px;
-      width: 100%;
-      text-align: center;
-    }
-  
-    .subtitle-B {
-      color: rgb(95, 95, 95);
-      padding-top: 5px;
-      padding-bottom: 10px;
-      margin-top: 0px;
-      margin-bottom: 15px;
-      width: 100%;
-      text-align: center;
-    }
+
+  .title-B {
+    font-size: 15px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .subtitle-B {
+    color: rgb(95, 95, 95);
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    width: 100%;
+    text-align: center;
+  }
 }
-
-
-
-
-
 
 
 /* Desktops com tela de 1024px ou mais de largura */
@@ -477,19 +491,139 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
   }
 
-  h1 {
+  body {
+    display: flex;
+    flex-direction: column;
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+
+  }
+
+
+  .TSA {
     text-align: center;
-    margin: 1em 0;
-    font-family: sans-serif;
+  }
+
+  .title-A {
+    font-size: 25px;
+    padding-top: 80px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    font-family: 'Kanit', sans-serif;
+  }
+
+  .subtitle-A {
+    color: rgb(95, 95, 95);
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .title-B {
+    font-size: 25px;
+    padding-top: 80px;
+    padding-left: 2%;
+    padding-bottom: 0px;
+    font-family: 'Kanit', sans-serif;
+  }
+
+  .subtitle-B {
+    color: rgb(70, 68, 68);
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    width: 100%;
+    padding-left: 2%;
+    padding-right: 5%;
+  }
+
+  .middleimg img {
+    width: 90%;
+  }
+
+  .UTA {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .T1 {
+    text-align: justify;
+    line-height: 170%;
+    padding-right: 5%;
+    padding-left: 5%;
+
+  }
+
+  .teste {
+    text-align: justify;
+    line-height: 170%;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 2vh;
+    padding-bottom: 10vh;
+  }
+
+  .TSC {
+    text-align: center;
+  }
+
+  .title-C {
+    font-size: 15px;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+
+  .subtitle-C {
+    color: rgb(95, 95, 95);
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+
+  }
+
+  .TSD {
+    text-align: center;
+  }
+
+  .title-D {
+    font-size: 15px;
+    padding-top: 60px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+
+  .subtitle-D {
+    color: rgb(104, 99, 99);
+    padding-top: 10px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-size: 15px;
   }
 
   .container {
     position: relative;
     padding: 15px;
-    max-width: 640px;
-    margin: 0 auto;
+
   }
 
   .gallery-wrapper {
@@ -509,7 +643,7 @@
     color: #fff;
     transition: all 600ms ease-in-out;
     background: linear-gradient(to left, transparent 0%, black 200%);
-    opacity: 0.1;
+    opacity: 0.5;
     cursor: pointer;
     border: none;
   }
@@ -533,125 +667,114 @@
   }
 
   .item {
-    width: 250px;
-    height: 250px;
+    /*Alterar pra maiores cards*/
+    width: 350px;
+    height: 500px;
     flex-shrink: 0;
     transition: all 600ms ease-in-out;
     opacity: 0.5;
   }
 
   .current-item {
-    opacity: 1;
+    opacity: 5;
   }
 
   .gallery-wrapper::-webkit-scrollbar {
     display: none;
   }
-
-  /* Hide scrollbar for IE, Edge and Firefox */
-  .gallery-wrapper {
-    -ms-overflow-style: none;
-    /* IE and Edge */
-    scrollbar-width: none;
-    /* Firefox */
+  ::-webkit-scrollbar {
+    height: 8px;
   }
 
-  .cyan {
-    background: cyan;
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 25px;
   }
 
-  .deeppink {
-    background: deeppink;
+  ::-webkit-scrollbar-thumb {
+    background: #007e0071;
+    ;
+    border-radius: 10px;
   }
 
-  .turquoise {
-    background: turquoise;
+  ::-webkit-scrollbar-thumb:hover {
+    background: #007e0071;
   }
 
-  .darkblue {
-    background: darkblue;
+  .containeeer {
+    display: flex;
+    width: 100%;
+    background: #4ed641;
+    padding: 20px;
+    gap: 15px;
+    scroll-snap-type: x mandatory;
+    overflow-x: scroll;
+    scroll-padding: 30px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
   }
 
-  .purple {
-    background: purple;
+  .containeeer .carde {
+    display: flex;
+    flex: 0 0 40%;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    max-width: 80%;
+    border-radius: 12px;
+    background: #fff;
+    scroll-snap-align: start;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
   }
 
-  /*  -------  */
+  .carde .imagem {
+    height: 200px;
+    width: 200px;
+    background: #ffffff6b;
+    border-radius: 50%;
 
+  }
 
-  /* Import Google font - Poppins */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-}
+  .imagem img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #616d626b;
+  }
 
-::-webkit-scrollbar {
-  height: 8px;
-}
-::-webkit-scrollbar-track {
-  background: #f1f1f1;
-  border-radius: 25px;
-}
-::-webkit-scrollbar-thumb {
-  background: #6e93f7;
-  border-radius: 25px;
-}
-::-webkit-scrollbar-thumb:hover {
-  background: #4070f4;
-}
-.containeeer {
-  display: flex;
-  gap: 12px;
-  max-width: 400px;
-  width: 100%;
-  background: #0c5af7;
-  border-radius: 12px;
-  padding: 30px;
-  scroll-snap-type: x mandatory;
-  overflow-x: scroll;
-  scroll-padding: 30px;
-  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
-}
-.containeeer .carde {
-  display: flex;
-  flex: 0 0 100%;
-  flex-direction: column;
-  align-items: center;
-  padding: 30px;
-  border-radius: 12px;
-  background: #fff;
-  scroll-snap-align: start;
-  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
-}
-.carde .imagem {
-  height: 150px;
-  width: 150px;
-  padding: 4px;
-  background: #4070f4;
-  border-radius: 50%;
-}
-.imagem img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  border-radius: 50%;
-  border: 5px solid #fff;
-}
-.carde h2 {
-  margin-top: 25px;
-  color: #333;
-  font-size: 22px;
-  font-weight: 600;
-}
-.carde p {
-  margin-top: 4px;
-  font-size: 18px;
-  font-weight: 400;
-  color: #333;
-  text-align: center;
-}
+  .carde h2 {
+    margin-top: 25px;
+    color: #333;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .carde p {
+    color: rgb(95, 95, 95);
+    text-align: center;
+  }
+
+  .carde-title {
+    align-items: center;
+    font-weight: bolder;
+    padding-bottom: 3px;
+  }
+
+  .carde-name {
+    align-items: center;
+    color: #4ed641;
+    padding-bottom: 15px;
+  }
+
+  .carde-resume {
+    align-items: center;
+    padding-bottom: 8px;
+  }
+
+  .icons {
+    font-size: 30px;
+  }
+
 
 }
