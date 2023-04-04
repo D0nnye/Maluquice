@@ -41,17 +41,14 @@
     font-size: 15px;
     width: 100%;
     text-align: center;
-    padding-left: 2%;
-    padding-right: 2%;
+    padding-left: 6%;
+    padding-right: 6%;
   }
 
   .title-B {
     font-size: 15px;
-    padding-top: 20px;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
-    width: 100%;
-    text-align: center;
+    padding-left: 5vh;
+    margin-top: 8%;
   }
 
 
@@ -62,14 +59,13 @@
     margin-top: 0px;
     margin-bottom: 15px;
     font-size: 15px;
-    width: 100%;
-    text-align: center;
+    padding-left: 5vh;
   }
 
   .T1 {
     text-align: justify;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
   }
 
   .middleimg img {
@@ -79,19 +75,15 @@
 
   .teste {
     text-align: justify;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
     padding-top: 2vh;
     padding-bottom: 10vh;
   }
 
   /* Carousel de Valores */
 
-  h1 {
-    text-align: center;
-    margin: 1em 0;
-    font-family: sans-serif;
-  }
+
 
   .container {
     position: relative;
@@ -162,8 +154,7 @@
     display: flex;
     gap: 15px;
     width: 100%;
-    background: #4ed641;
-    padding: 25px;
+    background: linear-gradient(45deg, #4070f4, #6e93f7, #4ed641, #333);    padding: 20px;    padding: 25px;
     scroll-snap-type: x mandatory;
     overflow-x: scroll;
     scroll-padding: 300px;
@@ -231,6 +222,13 @@
     font-size: 30px;
   }
 
+  .container-clip{
+    display: none;
+  }
+
+  #middleimg img {
+    width: 100%;
+  }
 
 
 }
@@ -247,32 +245,32 @@
   body {
     display: flex;
     flex-direction: column;
-    max-width: 1440px;
     margin: 0 auto;
     background-color: rgb(255, 255, 255);
+    font-size: 13px;
   }
 
   .TSA {
     text-align: center;
+    padding-left:5% ;
+    padding-right: 5%;
   }
 
   .title-A {
     font-family: 'Kanit', sans-serif;
-    font-size: 15px;
+    font-size: 18px;
     padding-top: 80px;
-    padding-bottom: 0px;
     margin-bottom: 0px;
-    width: 100%;
-    text-align: center;
   }
 
   .subtitle-A {
     color: rgb(95, 95, 95);
     padding-top: 5px;
     margin-top: 0px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     font-size: 15px;
     width: 100%;
+    text-align: center;
     padding-left: 2%;
     padding-right: 2%;
   }
@@ -284,26 +282,22 @@
 
   }
 
-  .middleimg img {
-    width: 90%;
+  #middleimg img {
+    width: 100%;
+    
   }
 
   .teste {
     text-align: justify;
-    padding-left: 2vh;
-    padding-right: 2vh;
+    padding-right: 4%;
+    padding-left: 4%;
     padding-top: 2vh;
     padding-bottom: 10vh;
   }
 
   /* Carousel de Valores */
 
-  h1 {
-    font-family: 'Kanit', sans-serif;
-    text-align: center;
-    margin: 1em 0;
-    font-family: sans-serif;
-  }
+
 
   .container {
     position: relative;
@@ -391,8 +385,7 @@
   .containeeer {
     display: flex;
     width: 100%;
-    background: #4ed641;
-    padding: 20px;
+    background: linear-gradient(45deg, #4070f4, #6e93f7, #4ed641, #333);    padding: 20px;
     gap: 15px;
     scroll-snap-type: x mandatory;
     overflow-x: scroll;
@@ -463,24 +456,30 @@
     font-size: 30px;
   }
 
-  .title-B {
+  .title-B{
     font-size: 15px;
-    padding-top: 20px;
+    padding-top: 80px;
+    padding-left: 3.8vh;
     padding-bottom: 0px;
-    margin-bottom: 0px;
-    width: 100%;
-    text-align: center;
+    font-family: 'Kanit', sans-serif;
+
   }
 
   .subtitle-B {
-    color: rgb(95, 95, 95);
+    color: rgb(143, 142, 142);
     padding-top: 5px;
     padding-bottom: 10px;
     margin-top: 0px;
     margin-bottom: 15px;
-    width: 100%;
-    text-align: center;
+    font-size: 13px;
+    padding-left: 4.2vh;
+    padding-right: 5%;
   }
+
+  .container-clip{
+    display: none;
+  }
+
 }
 
 
@@ -497,33 +496,33 @@
   body {
     display: flex;
     flex-direction: column;
-    max-width: 1440px;
     margin: 0 auto;
     font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
+    font-size: 18px;
 
   }
 
 
   .TSA {
     text-align: center;
+    padding-left:5% ;
+    padding-right: 5%;
   }
 
   .title-A {
     font-size: 25px;
     padding-top: 80px;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
+    padding-bottom: 3vh;
     font-family: 'Kanit', sans-serif;
   }
 
   .subtitle-A {
-    color: rgb(95, 95, 95);
+    color: rgb(143, 142, 142);
     padding-top: 5px;
     padding-bottom: 10px;
     margin-top: 0px;
     margin-bottom: 15px;
-    font-size: 15px;
+    font-size: 20px;
     width: 100%;
     text-align: center;
     padding-left: 5%;
@@ -533,27 +532,71 @@
   .title-B {
     font-size: 25px;
     padding-top: 80px;
-    padding-left: 2%;
+    padding-left: 3.8vh;
     padding-bottom: 0px;
     font-family: 'Kanit', sans-serif;
   }
 
   .subtitle-B {
-    color: rgb(70, 68, 68);
+    color: rgb(143, 142, 142);
     padding-top: 5px;
     padding-bottom: 10px;
     margin-top: 0px;
     margin-bottom: 15px;
-    font-size: 15px;
+    font-size: 18px;
     width: 100%;
-    padding-left: 2%;
+    padding-left: 4.2vh;
     padding-right: 5%;
   }
+/**/
 
-  .middleimg img {
-    width: 90%;
-  }
+.container-clip{
 
+  background-color: rgba(255, 0, 0, 0.24);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 70vh;
+
+}
+
+.content-clip{
+  text-align: center;
+  display: none;
+}
+
+.content-clip h1{
+  font-size: 95px;
+  color: #fff;
+  margin-bottom: 50px;
+}
+
+.content-clip a{
+  font-size: 23px;
+  color: #fff;
+  text-decoration: none;
+  border: 2px solid #fff;
+  padding: 15px 25px;
+  border-radius: 50px;
+  transition: 0.3s;
+}
+
+.content-clip a:hover{
+  background-color: #fff;
+  color: #000;
+}
+
+.background-clip{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -100;
+
+}
+
+/**/
   .UTA {
     display: flex;
     flex-direction: column;
@@ -564,7 +607,6 @@
     line-height: 170%;
     padding-right: 5%;
     padding-left: 5%;
-
   }
 
   .teste {
@@ -704,7 +746,7 @@
   .containeeer {
     display: flex;
     width: 100%;
-    background: #4ed641;
+    background: linear-gradient(45deg, #4070f4, #6e93f7, #4ed641, #333);
     padding: 20px;
     gap: 15px;
     scroll-snap-type: x mandatory;
@@ -719,7 +761,7 @@
     flex-direction: column;
     align-items: center;
     padding: 30px;
-    max-width: 80%;
+    max-width: 30%;
     border-radius: 12px;
     background: #fff;
     scroll-snap-align: start;
@@ -759,6 +801,7 @@
     align-items: center;
     font-weight: bolder;
     padding-bottom: 3px;
+    
   }
 
   .carde-name {
@@ -776,5 +819,8 @@
     font-size: 30px;
   }
 
+  #middleimg{
+    display: none;
+  }
 
 }
