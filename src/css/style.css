@@ -247,7 +247,7 @@
     flex-direction: column;
     margin: 0 auto;
     background-color: rgb(255, 255, 255);
-    font-size: 13px;
+    font-size: 15px;
   }
 
   .TSA {
@@ -258,7 +258,7 @@
 
   .title-A {
     font-family: 'Kanit', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     padding-top: 80px;
     margin-bottom: 0px;
   }
@@ -482,9 +482,8 @@
 
 }
 
-
 /* Desktops com tela de 1024px ou mais de largura */
-@media (min-width: 1024px) {
+@media (min-width: 1024px){
 
   * {
     margin: 0;
@@ -505,8 +504,8 @@
 
   .TSA {
     text-align: center;
-    padding-left:5% ;
-    padding-right: 5%;
+    padding-left:5%;
+    padding-right:5%;
   }
 
   .title-A {
@@ -664,7 +663,8 @@
 
   .container {
     position: relative;
-    padding: 15px;
+    padding: 25px;
+    width: 100%;
 
   }
 
